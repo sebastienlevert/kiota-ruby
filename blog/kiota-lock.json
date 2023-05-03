@@ -1,0 +1,31 @@
+{
+  "descriptionHash": "C79D792238B0666F31BDF9BB8EC58B7008DC0B18C30571D93127F4947C6460D79D1F96AA11B2CEECCAFA748145CAED7B499F26B2C41A1B3BEEFCA3C19A747F06",
+  "descriptionLocation": "https://raw.githubusercontent.com/sebastienlevert/kiota-api/main/openapi.yaml",
+  "lockFileVersion": "1.0.0",
+  "kiotaVersion": "1.1.3",
+  "clientClassName": "BlogClient",
+  "clientNamespaceName": "Blog",
+  "language": "Ruby",
+  "usesBackingStore": false,
+  "includeAdditionalData": false,
+  "serializers": [
+    "Microsoft.Kiota.Serialization.Json.JsonSerializationWriterFactory",
+    "Microsoft.Kiota.Serialization.Text.TextSerializationWriterFactory",
+    "Microsoft.Kiota.Serialization.Form.FormSerializationWriterFactory"
+  ],
+  "deserializers": [
+    "Microsoft.Kiota.Serialization.Json.JsonParseNodeFactory",
+    "Microsoft.Kiota.Serialization.Text.TextParseNodeFactory",
+    "Microsoft.Kiota.Serialization.Form.FormParseNodeFactory"
+  ],
+  "structuredMimeTypes": [
+    "application/json",
+    "text/plain",
+    "application/x-www-form-urlencoded"
+  ],
+  "includePatterns": [
+    "/posts"
+  ],
+  "excludePatterns": [],
+  "disabledValidationRules": []
+}
