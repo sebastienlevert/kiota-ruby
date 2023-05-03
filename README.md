@@ -2,13 +2,12 @@
 
 <a name="readme-top"></a>
 
-<!-- PROJECT LOGO -->
-<br />
 <div align="center">
-<h3 align="center">kiota-ruby</h3>
+<h1 align="center">kiota-ruby</h1>
 
   <p align="center">
     A simple console application built in Ruby using a Kiota generated client library
+    <br />
     <a href="https://github.com/sebastienlevert/kiota-ruby/issues">Report Bug</a>
     ·
     <a href="https://github.com/sebastienlevert/kiota-ruby/issues">Request Feature</a>
